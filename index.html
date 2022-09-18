@@ -14,6 +14,12 @@
 
     <title>Frontend Mentor | Profile card component</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
@@ -27,30 +33,29 @@
   </head>
   <body>
     <main>
-      <div class="bg-top">
-        <!-- <img src="./images/bg-pattern-top.svg" alt="" /> -->
-      </div>
+      <div class="bg-top"></div>
       <div class="bg-bottom"></div>
       <div class="card-container">
+        <div class="profile-bg"></div>
         <div class="profile-country">
-          <p>Victor Crest</p>
-          <p>26</p>
-          <p>London</p>
+          <img src="./images/image-victor.jpg" alt="victor-profile" />
+          <p class="age"><span>Victor Crest</span> 26</p>
+          <p class="country">London</p>
         </div>
 
         <div class="social-status">
           <div class="status">
-            <p>80K</p>
-            <p>Followers</p>
+            <p class="number">80K</p>
+            <p class="type">Followers</p>
           </div>
 
           <div class="status">
-            <p>803K</p>
-            <p>Likes</p>
+            <p class="number">803K</p>
+            <p class="type">Likes</p>
           </div>
           <div class="status">
-            <p>1.4K</p>
-            <p>Photos</p>
+            <p class="number">1.4K</p>
+            <p class="type">Photos</p>
           </div>
         </div>
       </div>
