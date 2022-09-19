@@ -93,3 +93,26 @@ body {
   font-size: 12px;
   letter-spacing: 1px;
 }
+
+@media (min-width: 1440px) {
+  .bg-top {
+    background-image: url("./images/bg-pattern-top.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 65rem;
+    height: 65rem;
+    position: fixed;
+    top: -30rem;
+    left: -18rem;
+  }
+  .bg-bottom {
+    background-image: url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 65rem;
+    height: 65rem;
+    position: fixed;
+    bottom: -15rem;
+    right: -20rem;
+  }
+}
